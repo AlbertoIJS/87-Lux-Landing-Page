@@ -1,13 +1,13 @@
 .footer__wrapper {
   background-color: #38394f;
-  margin-top: 25rem;
+  margin-top: 35rem;
   padding-top: 10%;
   position: relative;
 }
 
 .options__panel {
   position: absolute;
-  bottom: 70%;
+  bottom: 82%;
   max-width: inherit;
   h3 {
     text-transform: capitalize;
@@ -31,6 +31,7 @@
 
     .showcase__container {
       background-color: #e5e5e5;
+      box-shadow: 0px 12px 42px 1px rgba(0, 0, 0, 0.15);
       strong {
         border-top: 4px solid #38af43;
         width: 33%;
@@ -44,7 +45,7 @@
     color: #b9bec7;
     font-size: 0.87rem;
     width: 25%;
-    line-height: 1.5rem;
+    line-height: 2.25rem;
     cursor: pointer;
     li {
       font-weight: 700;

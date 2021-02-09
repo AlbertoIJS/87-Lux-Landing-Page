@@ -33,10 +33,15 @@
   position: relative;
   right: -15%;
   overflow: hidden;
-  & > div {
+  padding-bottom: 1%;
+  div {
     border-radius: 10px;
     margin-right: 2rem !important;
+    box-shadow: 0px 8px 15px 1px rgba(0, 0, 0, 0.15);
   }
+}
+
+.bs {
 }
 
 .buttons__container {
