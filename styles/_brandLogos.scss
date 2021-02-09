@@ -1,0 +1,15 @@
+.platforms {
+  padding: 5rem 0;
+  .brands {
+    align-items: center;
+    display: flex;
+    span {
+      align-self: flex-start;
+      margin-right: 3rem;
+      font-family: "Open Sans Condensed", sans-serif;
+      font-weight: 700;
+      font-size: 0.75rem;
+      color: #7c828d;
+    }
+  }
+}
