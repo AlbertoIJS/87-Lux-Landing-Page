@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 export default function LatestProyects() {
   return (
-    <div className='latest__proyect__container'>
+    <section className='latest__proyect__container'>
       <div className="slim__rectangle"><span className='text'>Latest  proyects</span></div>
       <div className="proyects">
         <Image src='/Dashhboard.webp' width={500} height={350} />
@@ -14,6 +14,6 @@ export default function LatestProyects() {
         <button className="btn__purple__outline">View Themes</button>
         <button className="btn__purple__outline">View Apps</button>
       </div>
-    </div>
+    </section>
   )
 }

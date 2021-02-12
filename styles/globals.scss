@@ -39,4 +39,8 @@
   border: 1px solid #7e53fd;
   font-weight: 700;
   background-color: transparent;
+  &:hover {
+    background-color: #7e53fd;
+    color: white;
+  }
 }

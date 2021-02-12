@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 export default function CustomSolutions() {
   return (
-    <div className="footer__wrapper">
+    <footer className="footer__wrapper">
       <Container className='footer__cta text-center'>
         <div className="options__panel">
           <h3 className='mb-5'>Need a custom solution?</h3>
@@ -33,6 +33,6 @@ export default function CustomSolutions() {
         <p className='text-white'>We work with any budget!</p>
         <button className='btn__purple'>Lets get started</button>
       </Container>
-    </div>
+    </footer>
   )
 }
