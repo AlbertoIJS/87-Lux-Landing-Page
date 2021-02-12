@@ -6,9 +6,9 @@ export default function CustomSolutions() {
     <footer className="footer__wrapper">
       <Container className='footer__cta text-center'>
         <div className="options__panel">
-          <h3 className='mb-5'>Need a custom solution?</h3>
+          <h3>Need a custom solution?</h3>
           <div className="columns__wrapper d-flex ">
-            <ol className='mr-3'>
+            <ol>
               <li>Install Theme</li>
               <li>Landing Page</li>
               <li>Build Online Store</li>
@@ -17,7 +17,6 @@ export default function CustomSolutions() {
               <li>Custom App</li>
               <li>Marketing Assets</li>
             </ol>
-            {/* 3 columns */}
             <div className='showcase__container d-flex flex-column'>
               <strong className='align-self-start p-1 bg-white text-dark'>Install Theme</strong>
               <div className="columns__wrapper bg-white row no-gutters d-flex">

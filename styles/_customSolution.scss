@@ -14,6 +14,7 @@
     color: #38394f;
     font-size: 3rem;
     font-weight: 700;
+    margin-bottom: 3rem;
   }
   .columns__wrapper {
     p {
@@ -46,9 +47,16 @@
     font-size: 0.87rem;
     width: 25%;
     line-height: 2.25rem;
+    margin-right: 3rem;
     cursor: pointer;
     li {
       font-weight: 700;
+      &:hover {
+        color: black;
+        &::marker {
+          color: #38af43;
+        }
+      }
     }
     & > li:first-child {
       color: black;
